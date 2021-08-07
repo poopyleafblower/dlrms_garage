@@ -27,11 +27,11 @@ end)
 -- Create PED
 Citizen.CreateThread(function()
     for k,v in pairs(DLRMS.Garages) do
-        RequestModel(0x062547E7)
-        while not HasModelLoaded(0x062547E7) do
+        RequestModel(0x3B96F23E)
+        while not HasModelLoaded(0x3B96F23E) do
             Citizen.Wait(1)
         end
-        local ped = CreatePed(4, 0x062547E7, v.x, v.y, v.z - 1, v.h, false, true)
+        local ped = CreatePed(4, 0x3B96F23E, v.x, v.y, v.z - 1, v.h, false, true)
         SetEntityHeading(ped, v.h)
         FreezeEntityPosition(ped, true)
         SetEntityInvincible(ped, true)
@@ -45,7 +45,7 @@ Citizen.CreateThread(function()
         for k,v in pairs(DLRMS.Garages) do
             local distance = GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), v.x, v.y, v.z, false)
             if distance <= 1.0 then
-                sleep = 60
+                sleep = 65
                 ShowHelpNotification('Garaja erişmek için ~INPUT_PICKUP~ tuşuna basın!')
                 if IsControlPressed(0, DLRMS.AccessKey) then
                     ui = not ui
