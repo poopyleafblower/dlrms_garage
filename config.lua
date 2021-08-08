@@ -2,7 +2,7 @@ DLRMS = {}
 DLRMS.AccessKey = 38
 DLRMS.ShowBlips = true
 DLRMS.Garages = {
-    {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 275.3407, y = -345.5868, z = 45.16919, h = 335.2, spawnX = 277.2108, spawnY = -340.075, spawnZ = 44.292, spawnH = 69.49},
+    {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 275.2109, y = -345.531, z = 45.173, h = 337.5, spawnX = 277.2300, spawnY = -340.067, spawnZ = 44.292, spawnH = 68.66},
     {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 361.3643, y = 298.8710, z = 103.88, h = 245.7, spawnX = 361.1088, spawnY = 293.6783, spawnZ = 102.88, spawnH = 248.5},
     {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 638.0555, y = 205.8065, z = 97.604, h = 339.0, spawnX = 628.4067, spawnY = 196.2766, spawnZ = 96.602, spawnH = 249.3},
     {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 877.8145, y = -77.6931, z = 78.874, h = 324.5, spawnX = 874.4474, spawnY = -77.1069, spawnZ = 78.082, spawnH = 328.3},
@@ -27,4 +27,5 @@ DLRMS.Garages = {
     {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 1852.114, y = 2582.584, z = 45.672, h = 263.8, spawnX = 1855.645, spawnY = 2578.792, spawnZ = 45.044, spawnH = 268.6},
     {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 67.68568, y = 12.30441, z = 69.214, h = 337.4, spawnX = 63.90129, spawnY = 16.55037, spawnZ = 68.712, spawnH = 339.2},
     {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = 44.43896, y = -842.145, z = 31.138, h = 159.5, spawnX = 40.81998, spawnY = -842.172, spawnZ = 30.789, spawnH = 160.0},
+    {text = 'Garage', colour = 29, sprite = 289, scale = 0.7, x = -898.882, y = -151.794, z = 41.884, h = 105.9, spawnX = -902.013, spawnY = -159.627, spawnZ = 41.253, spawnH = 26.55},
 }
